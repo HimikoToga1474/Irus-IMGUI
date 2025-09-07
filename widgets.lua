@@ -10,11 +10,11 @@ return function(Iris: Types.Internal)
     widgets.TextService = game:GetService("TextService")
 
     widgets.ICONS = {
-        RIGHT_POINTING_TRIANGLE = "rbxasset://textures/DeveloperFramework/button_arrow_right.png",
-        DOWN_POINTING_TRIANGLE = "rbxasset://textures/DeveloperFramework/button_arrow_down.png",
-        MULTIPLICATION_SIGN = "rbxasset://textures/AnimationEditor/icon_close.png", -- best approximation for a close X which roblox supports, needs to be scaled about 2x
+        RIGHT_POINTING_TRIANGLE = "rbxasset://textures/collapsibleArrowRight.png",
+        DOWN_POINTING_TRIANGLE = "rbxasset://textures/collapsibleArrowDown.png",
+        MULTIPLICATION_SIGN = "rbxasset://textures/DevConsole/Close.png", -- best approximation for a close X which roblox supports, needs to be scaled about 2x
         BOTTOM_RIGHT_CORNER = "\u{25E2}", -- used in window resize icon in bottom right
-        CHECK_MARK = "rbxasset://textures/AnimationEditor/icon_checkmark.png",
+        CHECK_MARK = "rbxasset://textures/DevConsole/Close.png",
         ALPHA_BACKGROUND_TEXTURE = "rbxasset://textures/meshPartFallback.png", -- used for color4 alpha
     }
 
