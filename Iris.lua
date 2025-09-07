@@ -9,7 +9,7 @@ local Types = loadstring(game:HttpGet("https://raw.githubusercontent.com/HimikoT
 ]=]
 local Iris = {} :: Types.Iris
 
-local InternalLoad = loadstring(game:HttpGet("https://raw.githubusercontent.com/peke7374/Iris/main/Internal.lua"))()
+local InternalLoad = loadstring(game:HttpGet("https://raw.githubusercontent.com/HimikoToga1474/Irus-IMGUI/refs/heads/main/Internal.lua"))()
 local Internal: Types.Internal = InternalLoad(Iris)
 
 --[=[
